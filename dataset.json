@@ -1,0 +1,249 @@
+[
+    {
+        "id": 23,
+        "annotations": [
+            {
+                "id": 26,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 9,
+                            "end": 14,
+                            "text": "Kamis",
+                            "labels": [
+                                "DATE"
+                            ]
+                        },
+                        "id": "feumPdeUpW",
+                        "from_name": "NER",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-02-13T10:00:58.258576Z",
+                "updated_at": "2025-02-13T10:00:58.258600Z",
+                "draft_created_at": null,
+                "lead_time": 8.177,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "4e34bb3e-a414-43de-9845-8bfbdb005544",
+                "import_id": null,
+                "last_action": null,
+                "task": 23,
+                "project": 3,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "82862f3f-dataset-ner.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Hari ini Kamis"
+        },
+        "meta": {},
+        "created_at": "2025-02-13T09:55:41.003164Z",
+        "updated_at": "2025-02-13T10:00:58.281017Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 24,
+        "annotations": [
+            {
+                "id": 25,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 5,
+                            "text": "Apple",
+                            "labels": [
+                                "ORGANIZATION"
+                            ]
+                        },
+                        "id": "ehwBfyCcOh",
+                        "from_name": "NER",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-02-13T10:00:48.852103Z",
+                "updated_at": "2025-02-13T10:00:48.852132Z",
+                "draft_created_at": "2025-02-13T10:00:45.534457Z",
+                "lead_time": 20.428,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "427b9e33-1d12-4e5f-ab99-62a2118b8f41",
+                "import_id": null,
+                "last_action": null,
+                "task": 24,
+                "project": 3,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "82862f3f-dataset-ner.json",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "text": "Apple mengeluarkan iPhone 16"
+        },
+        "meta": {},
+        "created_at": "2025-02-13T09:55:41.003264Z",
+        "updated_at": "2025-02-13T10:00:48.874084Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 25,
+        "annotations": [
+            {
+                "id": 24,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 14,
+                            "text": "Sugeng Winarno",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "SlVNViAzYt",
+                        "from_name": "NER",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 26,
+                            "end": 79,
+                            "text": "Ilmu Komunikasi FISIP Universitas Muhammadiyah Malang",
+                            "labels": [
+                                "ORGANIZATION"
+                            ]
+                        },
+                        "id": "qR9_4N2v-6",
+                        "from_name": "NER",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-02-13T10:00:11.523317Z",
+                "updated_at": "2025-02-13T10:00:11.523336Z",
+                "draft_created_at": "2025-02-13T09:59:38.133875Z",
+                "lead_time": 52.656,
+                "prediction": {},
+                "result_count": 2,
+                "unique_id": "b2da7238-c02d-4243-8895-8a816bf0e87b",
+                "import_id": null,
+                "last_action": null,
+                "task": 25,
+                "project": 3,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "82862f3f-dataset-ner.json",
+        "drafts": [
+            {
+                "id": 11,
+                "user": "tengkukevin05@gmail.com",
+                "created_username": "tengkukevin05@gmail.com, 1",
+                "created_ago": "1 week",
+                "result": [
+                    {
+                        "value": {
+                            "start": 0,
+                            "end": 14,
+                            "text": "Sugeng Winarno",
+                            "labels": [
+                                "PERSON"
+                            ]
+                        },
+                        "id": "SlVNViAzYt",
+                        "from_name": "NER",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 26,
+                            "end": 79,
+                            "text": "Ilmu Komunikasi FISIP Universitas Muhammadiyah Malang",
+                            "labels": [
+                                "ORGANIZATION"
+                            ]
+                        },
+                        "id": "qR9_4N2v-6",
+                        "from_name": "NER",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "lead_time": 22.89,
+                "was_postponed": false,
+                "import_id": null,
+                "created_at": "2025-02-13T10:02:36.854497Z",
+                "updated_at": "2025-02-13T10:02:48.589770Z",
+                "task": 25,
+                "annotation": 24
+            }
+        ],
+        "predictions": [],
+        "data": {
+            "text": "Sugeng Winarno bekerja di Ilmu Komunikasi FISIP Universitas Muhammadiyah Malang"
+        },
+        "meta": {},
+        "created_at": "2025-02-13T09:55:41.003342Z",
+        "updated_at": "2025-02-13T10:00:11.546356Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 3,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
